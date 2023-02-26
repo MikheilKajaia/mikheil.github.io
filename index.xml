@@ -6,14 +6,15 @@
     <description>Recent content on The software engineer blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ge</language>
-    <lastBuildDate>Sat, 25 Feb 2023 20:25:26 +0400</lastBuildDate><atom:link href="https://mikheilkajaia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Feb 2023 13:29:33 +0400</lastBuildDate><atom:link href="https://mikheilkajaia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://mikheilkajaia.github.io/posts/first-post/</link>
-      <pubDate>Sat, 25 Feb 2023 20:25:26 +0400</pubDate>
+      <title>Nest js &amp; BullMQ - scaling node js</title>
+      <link>https://mikheilkajaia.github.io/posts/nest-scaling/</link>
+      <pubDate>Sun, 26 Feb 2023 13:29:33 +0400</pubDate>
       
-      <guid>https://mikheilkajaia.github.io/posts/first-post/</guid>
-      <description>class Car { public model: string; public color: string; public isElectric: boolean; constructor(model: string, color: string, isElectric: boolean) { this.model = model; this.color = color; this.isElectric = isElectric; } } </description>
+      <guid>https://mikheilkajaia.github.io/posts/nest-scaling/</guid>
+      <description>სტატიის წინაპირობაა nest -ის საფუძვლების ცოდნა.
+Queue-ებს საკმაოდ დიდი როლი აქვთ აპლიკაციების დატვირვის დისტრიბუციულ განაწილებასა და პერფორმანსის ზრდაში. რადგან მათი გამოყენებით შეგვიძლია ასინქრონული ტასკების დისტრიბუციულად დამუშავება. მაგალითად შეგვიძლია Cpu ინტენსიური ტასკების გატანა ასინქრუნულად, დავამატოთ ისინი(Jobs) რიგის მსგავს მონაცემთა სტრუქტურაში, საიდანაც ერთი ან რამდენიმე worker პროცესები(Processes) გარკვეული თანმიმდევრობით ამოიღებენ და დაამუშავებენ მათ. მოცემული პატერნი საკმაოდ აქტუალურია node -ის სამყაროსთვის, რადგან ჯავასკრიპტის single-threaded ბუნების გამო resource-intensive ინსტრუქციების მთავარ სრედში დამუშავება იწვევს event-loop ის დაბლოკვას, ანუ აპლიკაციის პარალიზებას.</description>
     </item>
     
   </channel>
